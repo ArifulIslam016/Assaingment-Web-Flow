@@ -145,32 +145,82 @@ padding-top:116px ;
 }
 /* Get Section */
 .get{
+  background-color:rgb(201, 234, 247) ;
  margin: 0 auto;
   display: flex;
   max-width: 1440px;
   height: 632px;
-  gap: 115px;
+  gap: 312px;
+  border-radius: 15px;
+  padding-bottom: 71px;
+  
 }
 .get h1{
   font-size: 97px;
   font-weight: bold;
-  
-  
+  padding-left: 0px;
+  padding-top:200px ;
+  padding-bottom: 200px;
+   
 }
 
 .get-in{ 
- 
- 
+padding-top: 71px;
+padding-bottom: 71px;
+}
+.get-in label{
+font-size: 18px;
+font-weight: 500;
+
 }
 
 .get-in input { display: flex;
   width:497px ;
   height: 102px;
+  border-radius: 10px;
+  border-style: none;
+  font-size: 20px;
+   
 }
 .get-in textarea {
 display: flex;
+width: 497px;
+height: 167px;
+font-size: 20px;
+border-radius: 10px;
+border-style: none;
 }
-
-
+.get-btn{
+  width: 497px;
+  height: 62px;
+  font-size:16px ;
+  font-weight: bold;
+  color:#FFFFFF ;
+  background-color: #4E47FF;
+  border-radius: 10px;
+ margin-top: 19px;
+text-align: center;
+}
+.inp{
+  padding-bottom:19px;
+}
+/* Footer Section */
+.leg{
+ max-width: 1440px;
+  background-color: rgb(241, 238, 234);
+  margin: 0 auto;
+}
+.foot{
+  text-align: center;
+}
+.foot p {
+  color: #8987A1;
+  font-size: 16px;
+}
+.li a { text-decoration: none;
+  color: #8987A1;
+ font-size: 16px;
+  
+}
 
 
