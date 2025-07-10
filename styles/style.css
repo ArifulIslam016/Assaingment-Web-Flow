@@ -1,111 +1,106 @@
 .raleway {
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
-.inter {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
-  
-  /* Header */
-  header{
-    background-image:url(../Assets/Hero-bg.png) ;
-    max-width: 1440px;
-   height: 698px;
-    margin: 0px auto;
-  }
-  .navbar{
-    display: flex;
-    justify-content: space-between;
-   justify-items: center;
-   margin-left:150px  ;
-   margin-right: 150px;
-  }
-  .t-logo{ font-size: 34px;
-   color: #4E47FF;
-  
-    
-  }
-  .sign-btn{
-    color:#FFFFFF ;
-    background-color: #4E47FF;
-    border-radius: 16px;
-    width: 132px;
-    height: 48px;
-    margin-top: 51px;
-    border: none;    
-    font-size: 16px;
-    font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
-.banner{
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Header */
+header {
+  background-image: url(../Assets/Hero-bg.png);
+  max-width: 1440px;
+  height: 698px;
+  margin: 0px auto;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.t-logo {
+  font-size: 34px;
+  color: #4e47ff;
+}
+.sign-btn {
+  color: #ffffff;
+  background-color: #4e47ff;
+  border-radius: 16px;
+  width: 132px;
+  height: 48px;
+  margin-top: 51px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+.banner {
   text-align: center;
 }
-.banner h1{
+.banner h1 {
   color: #252432;
   font-size: 65px;
   font-weight: bold;
 }
-.focus-btn{
-  color:#FFFFFF ;
-  background-color: #4E47FF;
+.focus-btn {
+  color: #ffffff;
+  background-color: #4e47ff;
   border-radius: 10px;
   width: 174px;
   height: 48px;
-  border: none;    
+  border: none;
   font-size: 16px;
   font-weight: bold;
   text-align: center;
 }
-.action-container{ max-width: 1140px;
+.action-container {
+  max-width: 1140px;
   justify-content: center;
- 
-
 }
-.action-container{
+.action-container {
   display: flex;
   justify-content: space-between;
   margin: 0px auto;
 
-padding-left: 141px;
-padding-right: 159px;
-padding-top:116px ;
-
+  padding-left: 141px;
+  padding-right: 159px;
+  padding-top: 116px;
 }
-.action{
+.action {
   padding-top: 62.5px;
   padding-bottom: 62.5px;
 }
-.action h1{
-  color:#252432 ;
+.action h1 {
+  color: #252432;
   font-size: 42px;
   font-weight: bold;
- 
 }
 .action h4 {
   font-size: 24px;
   color: #25243260;
 }
-.action-img{
+.action-img {
   border-radius: 48px;
- 
 }
-.action button{color:#FFFFFF ;
-  background-color: #4E47FF;
+.action button {
+  color: #ffffff;
+  background-color: #4e47ff;
   border-radius: 10px;
   width: 229px;
   height: 48px;
   margin-top: 23px;
-  border: none;    
+  border: none;
   font-size: 16px;
   font-weight: bold;
 }
-.user-count{
+.user-count {
   display: flex;
-
 }
-.productive-users{ 
+.productive-users {
   padding-top: 50px;
   padding-bottom: 50px;
   padding-right: 142px;
@@ -115,112 +110,114 @@ padding-top:116px ;
   align-items: center;
   margin: 116px auto;
   text-align: center;
-  background-color:rgba(78, 71, 255, 0.1) ;
+  background-color: rgba(78, 71, 255, 0.1);
   background-repeat: no-repeat;
-  border-radius:24px ;
+  border-radius: 24px;
 }
-.productive-users h1 { color: #252432;
+.productive-users h1 {
+  color: #252432;
   font-size: 38px;
   font-weight: bold;
-  
-
 }
-.user-count{
+.user-count {
   justify-content: space-around;
- 
 }
-.user-title h1{
-  margin-top:40px ;
+.user-title h1 {
+  margin-top: 40px;
   font-size: 80px;
   font-weight: bold;
-  color: #4E47FF;
+  color: #4e47ff;
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
-.user-description{
+.user-description {
   margin-top: 0px;
- row-gap: 0px;
+  row-gap: 0px;
   font-size: 20px;
-  color:rgba(0, 0, 0, 0.5) ;
+  color: rgba(0, 0, 0, 0.5);
 }
 /* Get Section */
-.get{
-  background-color:rgb(201, 234, 247) ;
- margin: 0 auto;
+.get {
+  background-color: rgb(220, 241, 250);
+  margin: 0 auto;
   display: flex;
   max-width: 1440px;
   height: 632px;
   gap: 312px;
   border-radius: 15px;
   padding-bottom: 71px;
-  
 }
-.get h1{
+.get h1 {
   font-size: 97px;
   font-weight: bold;
   padding-left: 0px;
-  padding-top:200px ;
+  padding-top: 200px;
   padding-bottom: 200px;
-   
 }
 
-.get-in{ 
-padding-top: 71px;
-padding-bottom: 71px;
+.get-in {
+  padding-top: 71px;
+  padding-bottom: 71px;
 }
-.get-in label{
-font-size: 18px;
-font-weight: 500;
-
+.get-in label {
+  font-size: 18px;
+  font-weight: 500;
 }
 
-.get-in input { display: flex;
-  width:497px ;
+.get-in input {
+  display: flex;
+  width: 497px;
   height: 102px;
   border-radius: 10px;
   border-style: none;
   font-size: 20px;
-   
 }
 .get-in textarea {
-display: flex;
-width: 497px;
-height: 167px;
-font-size: 20px;
-border-radius: 10px;
-border-style: none;
+  display: flex;
+  width: 497px;
+  height: 167px;
+  font-size: 20px;
+  border-radius: 10px;
+  border-style: none;
 }
-.get-btn{
+.get-btn {
   width: 497px;
   height: 62px;
-  font-size:16px ;
+  font-size: 16px;
   font-weight: bold;
-  color:#FFFFFF ;
-  background-color: #4E47FF;
+  color: #ffffff;
+  background-color: #4e47ff;
   border-radius: 10px;
- margin-top: 19px;
-text-align: center;
+  margin-top: 19px;
+  text-align: center;
+  border: none;
 }
-.inp{
-  padding-bottom:19px;
+.inp {
+  padding-bottom: 19px;
 }
 /* Footer Section */
-.leg{
- max-width: 1440px;
-  background-color: rgb(241, 238, 234);
+.leg {
+  background-color: rgba(232, 243, 248, 0.582);
+  max-width: 1440px;
+
   margin: 0 auto;
 }
-.foot{
+.foot {
   text-align: center;
+  padding: 104px 455px 147px 454px;
 }
 .foot p {
-  color: #8987A1;
+  color: #8987a1;
   font-size: 16px;
 }
-.li a { text-decoration: none;
-  color: #8987A1;
- font-size: 16px;
-  
+.foot h1 {
+  color: #4e47ff;
+  font-size: 100px;
 }
-
-
+.li a {
+  text-decoration: none;
+  color: #8987a1;
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 20px;
+}
