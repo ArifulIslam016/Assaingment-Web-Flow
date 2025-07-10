@@ -1,0 +1,97 @@
+.raleway {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  
+  /* Header */
+  header{
+    background-image:url(../Assets/Hero-bg.png) ;
+    max-width: 1440px;
+   height: 698px;
+    margin: 0px auto;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+   justify-items: center;
+   margin-left:150px  ;
+   margin-right: 150px;
+  }
+  .t-logo{ font-size: 34px;
+   color: #4E47FF;
+  
+    
+  }
+  .sign-btn{
+    color:#FFFFFF ;
+    background-color: #4E47FF;
+    border-radius: 16px;
+    width: 132px;
+    height: 48px;
+    margin-top: 51px;
+    border: none;    
+    font-size: 16px;
+    font-weight: bold;
+}
+.banner{
+  text-align: center;
+}
+.banner h1{
+  color: #252432;
+  font-size: 65px;
+  font-weight: bold;
+}
+.focus-btn{
+  color:#FFFFFF ;
+  background-color: #4E47FF;
+  border-radius: 10px;
+  width: 174px;
+  height: 48px;
+  border: none;    
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.action-container{ max-width: 1140px;
+  justify-content: center;
+ 
+
+}
+.action-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px auto;
+
+padding-left: 141px;
+padding-right: 159px;
+padding-top:116px ;
+
+}
+.action{
+  padding-top: 62.5px;
+  padding-bottom: 62.5px;
+}
+.action h1{
+  color:#252432 ;
+  font-size: 42px;
+  font-weight: bold;
+ 
+}
+.action h4 {
+  font-size: 24px;
+  color: #25243260;
+}
+.action-img{
+  border-radius: 48px;
+ 
+}
+.action button{
+  
+}
+
